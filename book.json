@@ -1,0 +1,82 @@
+{
+    "plugins": [
+		"toggle-chapters",
+		"splitter",
+		"-expandable-chapters",
+		"expandable-chapters-small",
+		"-lunr","-search","search-pro-kui",
+		"-sharing","sharing-plus",
+		"-donate",
+		"edit-link",
+		"anchor-navigation-ex"
+	     ], 
+      "links":{
+	"sidebar":{
+		"Home":"http://10.100.1.40:4000/"
+	}
+        },
+     "pluginsConfig": {
+        "theme-default": {
+        	"showLevel": true
+         },
+        "anchor-navigation-ex": {
+	    "pageTop": { 
+	        "showLevelIcon": true,
+	        "level1Icon": "fa fa-hand-o-right",
+	        "level2Icon": "fa fa-hand-o-right",
+	        "level3Icon": "fa fa-hand-o-right"
+	    }
+	},
+        "sharing": {
+            	"douban": false,
+       	"facebook": true,
+       	"google": true,
+       	"hatenaBookmark": false,
+       	"instapaper": false,
+       	"line": true,
+       	"linkedin": true,
+       	"messenger": false,
+       	"pocket": false,
+       	"qq": true,
+       	"qzone": true,
+       	"stumbleupon": false,
+       	"twitter": true,
+       	"viber": false,
+       	"vk": false,
+       	"weibo": true,
+       	"whatsapp": false,
+       	"all": [
+           		"facebook", "google", "twitter",
+           		"weibo", "instapaper", "linkedin",
+           		"pocket", "stumbleupon"
+       	]
+        },
+        "edit-link":{
+	"base":"http://192.168.0.247/sunbingqing/demo/tree/master",
+	"label":"编辑本页",
+	"multilingual":false
+        }
+    }
+    
+                                                       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
